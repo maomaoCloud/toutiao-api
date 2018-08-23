@@ -237,7 +237,7 @@
     where NEWS_ID = #{newsId,jdbcType=VARCHAR}
   </update>
 
-  <select id="queryNewsByPage" parameterType="java.util.Map" resultType="java.util.Map">
+  <select id="queryNewsByPage" parameterType="java.util.Map" resultMap="BaseResultMap">
     select * from headline_news
     where
       1=1

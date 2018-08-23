@@ -11,4 +11,9 @@ public class Constants {
 
     }
 
+    /**
+     * 接口返回NULL字符串
+     */
+    public static final String NULL_STR = "NULL";
+
 }
